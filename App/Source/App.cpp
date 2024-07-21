@@ -2,5 +2,9 @@
 
 int main()
 {
-	Core::PrintHelloWorld();
+	Core::initializeAudio();
+	Core::startAudio();
+	Core::terminateAudio();
+
+	return 0;
 }

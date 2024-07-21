@@ -2,6 +2,7 @@
 
 namespace Core {
 
-	void PrintHelloWorld();
-
+	void initializeAudio();
+	void terminateAudio();
+	void startAudio();
 }

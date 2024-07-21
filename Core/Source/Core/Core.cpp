@@ -4,10 +4,15 @@
 
 namespace Core {
 
-	void PrintHelloWorld()
-	{
-		std::cout << "Hello World!\n";
-		std::cin.get();
+	void initializeAudio() {
+		std::cout << "Initializing audio..." << std::endl;
 	}
 
+	void terminateAudio() {
+		std::cout << "Terminating audio..." << std::endl;
+	}
+
+	void startAudio() {
+		std::cout << "Starting audio..." << std::endl;
+	}
 }
